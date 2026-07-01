@@ -1,7 +1,7 @@
 ---
-name: Investor Pitch & Deck Generator
+name: investor-pitch-deck-generator
 description: |
-  Generates investor pitches, one-page executive summaries, slide decks (PPTX), and a simple 3‑year financial outline from user inputs or uploaded financials. Designed as a Perplexity skill endpoint that accepts a POST to /generate and returns generated text plus a downloadable PPTX.
+  Generates investor pitches, one-page executive summaries, slide decks (PPTX), and a simple 3‑year financial outline from user inputs or uploaded financials. Designed as a Perplexity skill package that accepts a POST to /generate and returns generated text plus a downloadable PPTX.
 ---
 
 ## Quick overview
