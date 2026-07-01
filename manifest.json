@@ -1,0 +1,23 @@
+{
+  "name": "investor-pitch-skill",
+  "version": "0.1.0",
+  "description": "Investor Pitch & Deck Generator skill for Perplexity integration (scaffold).",
+  "endpoints": {
+    "generate": {
+      "path": "/generate",
+      "method": "POST",
+      "description": "Generate investor pitch text and PPTX"
+    },
+    "download": {
+      "path": "/download/{filename}",
+      "method": "GET",
+      "description": "Download generated file"
+    }
+  },
+  "auth": {
+    "type": "api_key",
+    "in": "header",
+    "name": "X-API-Key"
+  },
+  "notes": "This is a generic manifest. Replace with Perplexity-specific plugin manifest if building using Perplexity's plugin system."
+}
